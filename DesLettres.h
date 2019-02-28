@@ -8,7 +8,6 @@ class DesLettres
     void trouverMot();
 
 
-
     std::string motATrouver, lettres, motUtilisateur;
 
 };
