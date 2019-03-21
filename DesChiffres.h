@@ -8,6 +8,14 @@
 
 class DesChiffres {
 
+    public:
+    DesChiffres();
+    int nbATrouver();
+
+
+    int nb_min, nb_max;
+
+
 };
 
 

@@ -5,6 +5,8 @@
 #include <cstdlib>
 
 
+// rq : les anagrammes ne sont pas encore gérés !
+
 using namespace std;
 
 string DesLettres::recupLettres(string mot)
@@ -47,6 +49,11 @@ void DesLettres::trouverMot()
 DesLettres::DesLettres()
 {
     string mots[]={"stade", "arbre","chat","carpe" };
+    //pouvoir gérer sa liste de mots (ajouter, supprimer, modifier)
+    // à faire ou à préciser dans le rapport
+    // par exemple, pour les enseignants qui veulent faire apprendre des mots de base à des
+    // enfants/personnes apprenant le français
+
     srand(time(NULL));
     motATrouver=mots[rand()%4];
     lettres = recupLettres(motATrouver);
