@@ -15,7 +15,7 @@ int DesChiffres::nbATrouver()
     nb_max=20;
     int taille = nb_max-nb_min;
 
-    return rand()%taille + nb_min;
+    return rand()%taille + nb_min ;
 }
 
 
